@@ -1,13 +1,10 @@
-import task6.GetterSetterExample;
+import task7.ToStringExample;
 
 public class Main {
     public static void main(String[] args){
-        GetterSetterExample x = new GetterSetterExample();
-        x.setAge(21);
-        int y = x.getAge();
-        System.out.println(y);
-        x.setName("Nadya");
+        ToStringExample.Square x1 = new ToStringExample.Square(3,5);
+        ToStringExample x = new ToStringExample();
         System.out.println(x);
-
+        System.out.println(x1);
     }
 }
