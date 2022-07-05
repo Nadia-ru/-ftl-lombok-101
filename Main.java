@@ -1,15 +1,13 @@
-import task10.DataExample;
+import task11.ValueExample;
 
 public class Main {
     public static void main(String[] args){
-        String[] tags = new String[]{"fff","ddd"};
-        var x = new DataExample("Nadya");
-        x.setAge(21);
-        x.setScore(2.0f);
-        x.setTags(tags);
+        String[] tags = new String[]{"ddd"};
+        var x = new ValueExample("Nadya",21,5.0f,tags);
+        System.out.println(x.getAge());
         System.out.println(x);
-        Object f ="dd";
-        var x2 = new DataExample.Exercise("exercise", f);
+        String s ="ddd";
+        var x2 = new Exception("tt");
         System.out.println(x2);
     }
 }
