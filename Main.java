@@ -1,14 +1,11 @@
-import task8.EqualsAndHashCodeExample;
-import task8.Shape;
+import task9.ConstructorExample;
 
 public class Main {
     public static void main(String[] args){
-        Shape shape = new EqualsAndHashCodeExample.Square(5, 10);
-        var x = new EqualsAndHashCodeExample();
-        Shape v = x.getShape();
+        var x = new ConstructorExample.NoArgsExample();
+        var des = "desk";
+        var x2 = new ConstructorExample(3,7,des);
         System.out.println(x);
-        System.out.println(shape);
-        System.out.println(v);
-
+        System.out.println(x2);
     }
 }
