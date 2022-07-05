@@ -1,10 +1,14 @@
-import task7.ToStringExample;
+import task8.EqualsAndHashCodeExample;
+import task8.Shape;
 
 public class Main {
     public static void main(String[] args){
-        ToStringExample.Square x1 = new ToStringExample.Square(3,5);
-        ToStringExample x = new ToStringExample();
+        Shape shape = new EqualsAndHashCodeExample.Square(5, 10);
+        var x = new EqualsAndHashCodeExample();
+        Shape v = x.getShape();
         System.out.println(x);
-        System.out.println(x1);
+        System.out.println(shape);
+        System.out.println(v);
+
     }
 }
