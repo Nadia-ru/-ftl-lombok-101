@@ -1,10 +1,11 @@
-import task4.NonNullExample;
-import task4.Person;
+import task5.CleanupExample;
+
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args){
-        Person a = new Person("Nadya");
-        NonNullExample b = new NonNullExample(a);
-        System.out.println(b);
+    public static void main(String[] args)throws IOException {
+        String[] proverka = new String[] {"cat.txt","dog.txt"};
+        CleanupExample.main(proverka);
+
     }
 }
