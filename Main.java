@@ -1,10 +1,8 @@
-import task2.ValExample;
+import task3.VarExample;
 
 public class Main {
     public static void main(String[] args){
-        ValExample x1 = new ValExample();
-        String x = x1.example();
-        System.out.println(x);
-        x1.example2();
+        VarExample x = new VarExample();
+        System.out.println(x.example());
     }
 }
