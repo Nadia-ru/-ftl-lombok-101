@@ -1,10 +1,12 @@
-import task14.WithExample;
+import task15.GetterLazyExample;
 
 public class Main {
     public static void main(String[] args){
-        WithExample I = new WithExample("Nadya",21);
-        WithExample I2 =I.withAge(22);
-        System.out.println(I);
-        System.out.println(I2);
+        GetterLazyExample x = new GetterLazyExample();
+
+        for (int i =0;i< x.getCached().length;i++){
+        System.out.print(x.getCached()[i]+"+");}
+        for (int i =0;i< x.getCached().length;i++){
+        System.out.print(x.getCached()[i]+";");}
     }
 }
